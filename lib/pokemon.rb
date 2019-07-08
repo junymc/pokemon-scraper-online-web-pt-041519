@@ -3,7 +3,7 @@ class Pokemon
   attr_accessor :name, :type, :db, :hp
   attr_reader :id
 
-  def initialize(keywords)
+  def initialize(keyword)
     @id = id
     @name = name
     @type = type
